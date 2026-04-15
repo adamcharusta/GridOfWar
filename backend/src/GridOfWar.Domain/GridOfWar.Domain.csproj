@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>GridOfWar.Backend.Domain</RootNamespace>
+    <AssemblyName>GridOfWar.Backend.Domain</AssemblyName>
+  </PropertyGroup>
+</Project>

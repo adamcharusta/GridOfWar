@@ -1,0 +1,125 @@
+############################
+# .NET / C# build output
+############################
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Ll]og/
+[Ll]ogs/
+artifacts/
+publish/
+PublishProfiles/
+*.binlog
+
+############################
+# NuGet
+############################
+*.nupkg
+*.snupkg
+.nuget/
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.fragment.lock.json
+
+############################
+# Test / coverage
+############################
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.trx
+*.coverage
+*.coveragexml
+coverage*.json
+coverage*.xml
+coverage*.info
+.coverlet/
+BenchmarkDotNet.Artifacts/
+
+############################
+# Roslyn / compiler caches
+############################
+*.VisualState.xml
+*.tlog
+*.tlog.bak
+*.tmp_proj
+*_wpftmp.csproj
+*.cache
+*.ilk
+*.iobj
+*.ipdb
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tli
+*.tlh
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+*.mm.*
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+
+############################
+# EF Core / Migrations scratch
+############################
+# (migrations themselves are SOURCE — do NOT ignore)
+*.mdf
+*.ldf
+*.ndf
+
+############################
+# User / local settings
+############################
+appsettings.*.Local.json
+appsettings.Development.Local.json
+*.user
+*.dbmdl
+launchSettings.local.json
+
+############################
+# Secrets (UserSecrets stored outside repo by default, but just in case)
+############################
+secrets.json
+.env
+.env.*
+!.env.example
+
+############################
+# Rider / ReSharper (project-local; global ones covered by root .gitignore)
+############################
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+############################
+# JetBrains dotCover / dotTrace
+############################
+*.dotCover
+*.dotTrace
+
+############################
+# Tools
+############################
+.tools/

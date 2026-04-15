@@ -1,0 +1,27 @@
+**/bin/
+**/obj/
+**/out/
+**/publish/
+**/.vs/
+**/.idea/
+**/.vscode/
+**/*.user
+**/*.suo
+
+# tests are not needed for the runtime image
+tests/
+
+# local artifacts
+TestResults/
+artifacts/
+coverage/
+*.coverage
+*.coveragexml
+
+# misc
+**/.gitignore
+**/.gitattributes
+**/.editorconfig
+**/*.md
+**/Dockerfile*
+**/.dockerignore

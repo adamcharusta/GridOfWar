@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>GridOfWar.Backend.Application.UnitTests</RootNamespace>
+    <AssemblyName>GridOfWar.Backend.Application.UnitTests</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\GridOfWar.Application\GridOfWar.Application.csproj" />
+  </ItemGroup>
+
+</Project>

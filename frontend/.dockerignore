@@ -1,0 +1,26 @@
+node_modules/
+dist/
+coverage/
+.vite/
+
+# Cypress artefakty
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# misc
+*.md
+.gitignore
+.gitattributes
+.editorconfig
+.env
+.env.*
+!.env.example
+Dockerfile*
+.dockerignore
